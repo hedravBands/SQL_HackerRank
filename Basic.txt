@@ -1,4 +1,7 @@
 Weather Observation Station 5
 SELECT COUNT(CITY) - COUNT(DISTINCT CITY) FROM STATION;
 
+Weather Observation Station 6
+SELECT DISTINCT CITY FROM STATION  WHERE upper(substr(city, 1,1)) in ('A','E','I','O','U');
 
+Weather Observation Station 7
